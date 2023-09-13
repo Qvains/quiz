@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_quiz.css') }}">
+    <title>Викторина</title>
+</head>
+<body>
+    <h1>Викторины!</h1>
+    <div class="title"><h2>Выберите Викторину</h2></div>
+    <form method="post" action="/">
+        <select  name="quiz" class="select-css">
+            {% for id, name in q_list %}
+                <option value="{{id}}">{{name}}</option>
+            {% endfor %}
+        </select>
+        <p><input type="submit" value="Выбрать" class="start_button"></p>
+    </form>
+</body>
+</html>

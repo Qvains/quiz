@@ -1,0 +1,92 @@
+body {
+  color: #000000
+}
+.title {
+  background-color: #00ffd0;
+  border-radius: 100px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.select-css {
+  border-radius: 75px;
+  justify-content: center;
+  justify-items: center;
+  height: 75px;
+  width: 150px;
+  margin-top: 40px;
+  display: flex;
+  background-color: #2f00ff;
+  margin-right: auto;
+  margin-left: auto;
+}
+.start_button 
+{
+  width: 100px;
+  height: 75px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  background-color: #00ff44;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.question 
+{
+  
+  padding: 4px;
+  border:rgb(166, 0, 0) 10px solid;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.form_radio_btn
+{
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.form_radio_btn input[type=radio] 
+{
+  display: none
+  
+}
+
+.form_radio_btn label 
+{
+  display: inline-block;
+  line-height: 34px;
+  padding: 0px 15px;
+  border: 1px solid rgb(90, 83, 83);
+  border-radius: 6px;
+}
+.form_radio_btn :hover
+{
+  background-color: rgb(4, 255, 0)
+}
+.form_radio_btn :checked+label
+{
+  background-color: #00ff44;
+}
+
+.text_result 
+{
+  color:#2f00ff;
+  border:rgb(98, 0, 255) 20px solid;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.result_answers 
+{
+  color: #5974ce;
+  display: flex;
+  justify-content: center;
+}
